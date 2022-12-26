@@ -3,6 +3,7 @@ package cinema.service.impl;
 import cinema.model.User;
 import cinema.service.UserService;
 import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User.UserBuilder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Service;
 public class UserDetailsServiceImpl implements UserDetailsService {
     private final UserService userService;
 
+    @Autowired
     public UserDetailsServiceImpl(UserService userService) {
         this.userService = userService;
     }

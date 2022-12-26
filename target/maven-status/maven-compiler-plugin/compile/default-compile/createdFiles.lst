@@ -69,7 +69,6 @@ cinema\controller\OrderController.class
 cinema\model\Role.class
 cinema\dto\response\UserResponseDto.class
 cinema\dao\MovieDao.class
-mate\academy\spring\dao\impl\ShoppingCartDaoImpl.class
 cinema\dao\TicketDao.class
 cinema\config\AppConfig.class
 cinema\exception\DataProcessingException.class
@@ -78,4 +77,5 @@ cinema\dao\impl\CinemaHallDaoImpl.class
 cinema\dto\response\MovieSessionResponseDto.class
 cinema\dao\OrderDao.class
 cinema\model\MovieSession.class
+cinema\dao\impl\ShoppingCartDaoImpl.class
 cinema\service\impl\MovieSessionServiceImpl.class

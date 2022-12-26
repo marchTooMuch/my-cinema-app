@@ -1,4 +1,4 @@
-package mate.academy.spring.dao.impl;
+package cinema.dao.impl;
 
 import cinema.dao.AbstractDao;
 import cinema.dao.ShoppingCartDao;
